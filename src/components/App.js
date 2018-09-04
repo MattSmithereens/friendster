@@ -7,11 +7,17 @@ import Friends from "./Friends";
 
 const App = () => {
   return (<div className="App">
-  <Nav />
-  <Bio />
-  <Snap />
-  <Feed />
-  <Friends />
+      <Nav />
+    <div id="left-col">
+      <Bio />
+      <Snap />
+    </div>
+    <div id="center-col">
+      <Feed />
+    </div>
+    <div id="right-col">
+      <Friends />
+    </div>
   </div>);
 };
 
