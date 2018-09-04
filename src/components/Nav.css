@@ -1,0 +1,22 @@
+.Nav {
+    width: 100%;
+}
+
+.nav-but {
+    display: flex;  
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: none;
+    
+}
+
+.search {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    
+    
+    
+}
