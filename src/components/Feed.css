@@ -1,18 +1,28 @@
 .Feed { 
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color:grey;
+    padding: 5%;
+    margin:5%;
+    border-width: 2px;
     width: 100%;
 }
 
 .feed-header {
     text-align: center;
-    border-bottom: 2px, solid, black;
+    border-bottom: 2px, solid, grey;
 }
 .feed-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     padding: 5px;
     border-style: solid;
     border-width: 0px 0px 2px 0px;;
-    border-color: black;
+    border-color: grey;
+}
 
+.feed-item img {
+    padding-top: 30%;
+    height: auto;
+    width: 100%;
 }

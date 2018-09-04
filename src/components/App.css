@@ -8,20 +8,21 @@
 }
 
 #main {
-  display: flex;
-  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 #left-col {
-  flex-grow: 1;
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #center-col {
   display: flex;
   align-content: center;
-  flex-grow: 1;
   justify-content: center;
 }
 
 #right-col {
-  flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }

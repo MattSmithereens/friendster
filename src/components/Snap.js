@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Snap.css"
 
 const Snap = () => {
   return (<div className="Snap">

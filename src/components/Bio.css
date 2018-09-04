@@ -1,10 +1,18 @@
 .Bio {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 250px;
-    width: 300px;
+    justify-content: space-around;
+    height: 300px;
     border-style: solid;
+    padding: 5%;
+    margin:5%;
     border-width: 2px;
-    background-color: aqua;
+    background-image: linear-gradient(to top, white 50%, #4286f4 50%)
+}
+
+#bottom {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+
 }
