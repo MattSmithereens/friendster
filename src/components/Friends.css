@@ -1,0 +1,14 @@
+#Friends {
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Friends img {
+    width: 15%;
+    height: 15%;
+}

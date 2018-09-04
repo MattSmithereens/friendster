@@ -8,8 +8,10 @@ const Nav = () => {
   <button>Home</button>
   <button>Notifations</button>
   <button>Message</button>
-&nbsp;&nbsp;&nbsp;&nbsp;
-  <input align="right" class="search" type="text" name="lastname" value="search"/>
+  </div>
+  <div>
+  <input className="search" type="text" value="search"/>
+  <input className="search" type="text" value="tweet"/>
   </div>
   </div>);
 };
